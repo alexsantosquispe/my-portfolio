@@ -1,22 +1,22 @@
-import "./globals.css";
+import './globals.css';
 
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono } from 'next/font/google';
 
-import type { Metadata } from "next";
+import type { Metadata } from 'next';
 
 const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"]
+  variable: '--font-geist-sans',
+  subsets: ['latin']
 });
 
 const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"]
+  variable: '--font-geist-mono',
+  subsets: ['latin']
 });
 
 export const metadata: Metadata = {
-  title: "Alex Portfolio",
-  description: "Alex Santos Portfolio"
+  title: 'Alex Portfolio',
+  description: 'Alex Santos Portfolio'
 };
 
 export default function RootLayout({
