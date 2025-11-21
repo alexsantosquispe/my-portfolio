@@ -1,36 +1,95 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# My Portfolio
 
-## Getting Started
+Portafolio personal desarrollado con Next.js, TypeScript y Tailwind CSS.
 
-First, run the development server:
+## 🚀 Tecnologías
+
+- **Next.js 16** - Framework de React para producción
+- **React 19.2.0** - Biblioteca de JavaScript para interfaces de usuario
+- **TypeScript** - Superset de JavaScript con tipado estático
+- **Tailwind CSS v4** - Framework de CSS utility-first
+- **Geist Font** - Fuentes optimizadas de Vercel (Sans y Mono)
+
+## 📦 Gestor de Paquetes
+
+Este proyecto utiliza `pnpm` como gestor de paquetes.
+
+## 🛠️ Instalación
+
+1. Clona el repositorio:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <repository-url>
+cd my-portfolio
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Instala las dependencias:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🏃 Desarrollo
 
-## Learn More
+Ejecuta el servidor de desarrollo:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+pnpm dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver el resultado.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+La página se actualiza automáticamente cuando editas los archivos.
 
-## Deploy on Vercel
+## 📜 Scripts Disponibles
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- `pnpm dev` - Inicia el servidor de desarrollo
+- `pnpm build` - Construye la aplicación para producción
+- `pnpm start` - Inicia el servidor de producción
+- `pnpm lint` - Ejecuta ESLint para verificar el código
+- `pnpm format:check` - Verifica el formato del código con Prettier
+- `pnpm format` - Formatea el código con Prettier
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📁 Estructura del Proyecto
+
+```
+my-portfolio/
+├── app/              # Directorio de la aplicación Next.js (App Router)
+│   ├── layout.tsx    # Layout principal
+│   ├── page.tsx      # Página principal
+│   └── globals.css   # Estilos globales
+├── public/           # Archivos estáticos
+├── package.json      # Dependencias y scripts
+└── tsconfig.json     # Configuración de TypeScript
+```
+
+## 🎨 Características
+
+- ✅ TypeScript para mayor seguridad de tipos
+- ✅ Tailwind CSS v4 para estilos modernos
+- ✅ ESLint y Prettier para calidad de código
+- ✅ Fuentes optimizadas con `next/font`
+- ✅ Configuración de rutas con alias `@/*`
+
+## 📝 Próximos Pasos
+
+- [ ] Implementar secciones del portafolio (Sobre mí, Proyectos, Contacto)
+- [ ] Agregar animaciones y transiciones
+- [ ] Optimizar para SEO
+- [ ] Implementar modo oscuro/claro
+
+## 🚢 Despliegue
+
+La forma más fácil de desplegar tu aplicación Next.js es usar [Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme), la plataforma creada por los creadores de Next.js.
+
+Consulta la [documentación de despliegue de Next.js](https://nextjs.org/docs/app/building-your-application/deploying) para más detalles.
+
+## 📚 Recursos
+
+- [Documentación de Next.js](https://nextjs.org/docs)
+- [Aprende Next.js](https://nextjs.org/learn) - Tutorial interactivo
+- [Repositorio de Next.js en GitHub](https://github.com/vercel/next.js)
+
+## 📄 Licencia
+
+Este proyecto es privado.
