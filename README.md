@@ -19,7 +19,7 @@ Este proyecto utiliza `pnpm` como gestor de paquetes.
 1. Clona el repositorio:
 
 ```bash
-git clone <repository-url>
+git clone git@github.com:alexsantosquispe/my-portfolio.git
 cd my-portfolio
 ```
 
@@ -77,18 +77,6 @@ my-portfolio/
 - [ ] Agregar animaciones y transiciones
 - [ ] Optimizar para SEO
 - [ ] Implementar modo oscuro/claro
-
-## 🚢 Despliegue
-
-La forma más fácil de desplegar tu aplicación Next.js es usar [Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme), la plataforma creada por los creadores de Next.js.
-
-Consulta la [documentación de despliegue de Next.js](https://nextjs.org/docs/app/building-your-application/deploying) para más detalles.
-
-## 📚 Recursos
-
-- [Documentación de Next.js](https://nextjs.org/docs)
-- [Aprende Next.js](https://nextjs.org/learn) - Tutorial interactivo
-- [Repositorio de Next.js en GitHub](https://github.com/vercel/next.js)
 
 ## 📄 Licencia
 
